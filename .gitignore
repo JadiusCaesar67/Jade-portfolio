@@ -1,3 +1,4 @@
 /dist
 /node_modules
 /src/test.txt
+tailwind.config.js
