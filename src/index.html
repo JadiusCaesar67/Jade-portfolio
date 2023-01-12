@@ -113,7 +113,7 @@
     <!-- about -->
     <div id="about" class="px-10 dark:bg-slate-900">
       <div
-        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+        class="container mx-auto py-40 md:flex flex-col-reverse lg:flex-row items-center gap-20"
       >
         <!-- left -->
         <div class="relative">
@@ -122,8 +122,11 @@
             src="./img/dots.png"
             alt=""
           />
-          <div class="h-full rounded-full overflow-hidden">
-            <img src="./img/portrait.jpg" alt="" />
+          <div class="md:hidden rounded-lg overflow-hidden">
+            <img src="./img/portrait.jpg" alt="" class="h-15"/>
+          </div>
+          <div class="hidden md:flex lg:h-full h-15 rounded-full overflow-hidden">
+            <img src="./img/portrait.jpg" alt=""/>
           </div>
         </div>
         <!-- right -->
@@ -248,7 +251,7 @@
           </div>
         </div>
         <div class="flex flex-col gap-3 items-center">
-          <h1 class="text-3xl dark:text-white">Soft Skills:</h1>
+          <h1 class="text-xl dark:text-white">Soft Skills:</h1>
           <p class="w-1/2 text-center text-gray-400">
             Resilience | Communication | Time Management |
             Stress management | Resourcefulness | Adaptability | 
