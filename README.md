@@ -12,5 +12,3 @@ This project only uses Tailwind as a CSS framework...
 In the project directory, you only need to run this in the terminal:
 
 ### `npm install`
-
-![My Image](./src/img/HomePage.png)
