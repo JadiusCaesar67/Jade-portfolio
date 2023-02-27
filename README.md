@@ -9,6 +9,7 @@ This project only uses Tailwind as a CSS framework...
 
 ## Available Scripts
 
-In the project directory, you only need to run this in the terminal:
+In the project directory, you only need to run these commands in the terminal:
 
 ### `npm install`
+### `npm run watch`
